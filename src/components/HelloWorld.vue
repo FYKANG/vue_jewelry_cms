@@ -43,7 +43,11 @@
 </template>
 <script>
 import Commodity from "@/components/Commodity";
-export default {};
+export default {
+  components: {
+    Commodity
+  }
+};
 </script>
 
 <style scoped>

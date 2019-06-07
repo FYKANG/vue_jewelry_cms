@@ -12,7 +12,7 @@ export default new Vuex.Store({
 
     orderCommodityVOList: {}, // 订单列表
 
-    commodityList: {}, // 商品列表
+    commodityList: [], // 商品列表
     vCommodityInfoUuid: "", // 正在查看的商品uuid
     vCommodityInfoSize: 0, // 正在查看的商品尺寸
     commodityInfo: {}, // 商品信息
